@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="-591" y="94"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Colors Table View Controller-->
         <scene sceneID="hJO-2t-gcz">
             <objects>
-                <tableViewController id="xDm-T7-ZgQ" sceneMemberID="viewController">
+                <tableViewController id="xDm-T7-ZgQ" customClass="ColorsTableViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="X3p-um-yeu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,7 +78,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ejj-Va-mv0" kind="show" id="ddq-Db-UjA"/>
+                                    <segue destination="ejj-Va-mv0" kind="show" identifier="ToDetailSegue" id="ddq-Db-UjA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="136" y="94"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="aLu-BZ-FNG">
             <objects>
-                <viewController id="ejj-Va-mv0" sceneMemberID="viewController">
+                <viewController id="ejj-Va-mv0" customClass="ColorDetailViewController" customModule="Rainbow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W9Z-8O-GSz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
